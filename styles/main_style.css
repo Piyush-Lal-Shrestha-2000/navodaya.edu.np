@@ -1,5 +1,5 @@
 *{
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 body{
@@ -44,10 +44,19 @@ body{
     100% { transform: rotate(360deg); }
 }
 
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
 #contents{
     /* padding: 5px 20px; */
     height: 100vh;
     width: 100vw;
+    text-align: center;
 }
 
 #contents h1, p{
